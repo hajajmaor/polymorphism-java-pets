@@ -10,9 +10,6 @@ class Main {
         myCat.animalSound();
         myDog.animalSound();
 
-        // The method onlyDog() is undefined for the type Animal
-        myDog.onlyDog();
-
         // why this is working???
         realDog.onlyDog();
     }
