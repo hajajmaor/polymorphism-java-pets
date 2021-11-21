@@ -1,7 +1,7 @@
 package dataStructures;
 
 public class MyLinkedList<E> {
-    Node<E> head;
+    public Node<E> head;
 
     public MyLinkedList() {
         head = null;

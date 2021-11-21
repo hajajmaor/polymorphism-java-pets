@@ -14,7 +14,9 @@ class Main {
         Branch jerusalem = new Branch("Ort", "Jerusalem");
         jerusalem.animals.add(d1);
         jerusalem.animals.add(c1);
-        System.out.println(rehovot);
-        System.out.println(jerusalem);
+        jerusalem.animals.add(d2);
+        // System.out.println(rehovot);
+        // System.out.println(jerusalem);
+        System.out.println(jerusalem.countType("dog"));
     }
 }
