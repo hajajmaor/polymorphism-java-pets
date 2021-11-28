@@ -23,6 +23,11 @@ public class MyLinkedList<E> {
             current.next = element;
         }
     }
+    public void add(int number){
+        double rootOfNumber = Math.sqrt(number);
+    }
+
+
 
     /**
      * add node to the end of the list
