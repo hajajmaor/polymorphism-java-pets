@@ -8,7 +8,7 @@ public class Main {
         p1.fooMethod();
         f1.fooMethod();
         p1.barmethod();
-        // f1.barMethod();
+        f1.barMethod();
         System.out.println(p1);
         System.out.println(f1);
     }
